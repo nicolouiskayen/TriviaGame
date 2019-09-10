@@ -14,17 +14,16 @@ function run() {
   };
   function decrement() {
   
-    //  Decrease number by one.
+   
     c--;
 
-    //  Show the number in the #show-number tag.
+   
     var minutes = parseInt( c / 60 ) % 60;
 		var seconds = c % 60;
 		var result =  (minutes < 10 ? "0" + minutes : minutes) + ":" + (seconds  < 10 ? "0" + seconds : seconds);            
 		$('#time').html(result);
 
 
-    //  Once number hits zero...
     if (c === 0) {
         q1=true;
         q2=true;
