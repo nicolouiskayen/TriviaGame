@@ -34,7 +34,21 @@ function run() {
     }
   };
 
-  $('#quiz1 input').on('change', function() {
+  $("#reset").on('click', function() {
+    correct = 0;
+     c=60;
+     t;
+     intervalId;
+     q1=false;
+     q2=false;
+     q3=false;
+     a1;
+     a2;
+     a3;
+    run()
+  });
+
+  $('#quiz1 input').on('click', function() {
       if(q1===false){
         q1=true;
         a1=parseInt($('input[name=q1]:checked', '#quiz1').val());
@@ -44,7 +58,7 @@ function run() {
     }
       
     });
-  $('#quiz2 input').on('change', function() {
+  $('#quiz2 input').on('click', function() {
       if(q2===false && q1===true){
         q2=true;
         a2=parseInt($('input[name=q2]:checked', '#quiz2').val());
@@ -56,7 +70,7 @@ function run() {
       }
       
     });
-  $('#quiz3 input').on('change', function() {
+  $('#quiz3 input').on('click', function() {
       if(q3===false && q2===true){
         q3=true;
         a3=parseInt($('input[name=q3]:checked', '#quiz3').val());
