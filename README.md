@@ -5,4 +5,4 @@ This project is a trivia quiz on Spy Kids! You have 1 minute to answer and your 
 
 This project was practice in utilizing a timer in javascript. This assignment followed the timers homework instructions and referenced the activities fromt that section and similar bugs others had on Stack OverFlow.
 
-Built and Maintained by Nico Louis-Kayen
+Built and Maintained by Nico Louis-Kayen# MeHungry
